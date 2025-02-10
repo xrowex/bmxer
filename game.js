@@ -4,7 +4,7 @@ const config = {
     height: 720,
     physics: {
         default: "arcade",
-        arcade: { gravity: { y: 1000 }, debug: true }
+        arcade: { gravity: { y: 1000 }, debug: false }
     },
     scene: {
         preload: preload,
